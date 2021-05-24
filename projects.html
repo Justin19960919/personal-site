@@ -3,11 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Home</title>
+  <title>Projects</title>
 
   <!-- Google fonts cdn -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&Noto+Sans+KR&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
+
   <!-- CSS Stylesheets -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <!-- font awesome cdn -->
@@ -18,82 +19,36 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  <!-- self defined css -->
+  <!-- Css -->
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
 
+  <!-- Navbar -->
   <section id="title">
-
-    <div class="container-fluid">
-
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand">Chieh Lin Lee</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html" style="color: #FFFAF0;">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./projects.html" style="color: #FFFAF0;">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html" style="color: #FFFAF0;">Contact</a>
-            </li>
-          </ul>
-
+    <div class="container">
+      <nav class="navbar-non-landing navbar-expand-lg navbar-dark">
+        <a class="navbar-brand-non-landing center">Chieh Lin Lee</a>
+        <div class="center">
+          <a class="nav-link" href="./index.html" style="color: #FFFAF0;">Home</a>
+          <a class="nav-link" href="./about.html" style="color: #FFFAF0;">About</a>
+          <a class="nav-link" href="./projects.html" style="color: #FFFAF0;">Projects</a>
+          <a class="nav-link" href="./contact.html" style="color: #FFFAF0;">Contact</a>
         </div>
       </nav>
-
-
-      <!-- Title -->
-      <div class="row">
-
-          <div class="col-lg-6">
-            <p class="slogan">An aspiring software engineer, and a passionate problem solver.</p>
-
-            <div style="margin-top: 40px;">
-              <!-- social media routes -->
-              <!-- linkedin -->
-              <a class="fa-icon" href="https://www.linkedin.com/in/chieh-lin-lee/" title="linkedin">
-                <i class="fab fa-linkedin fa-2x"></i>
-              </a>
-              <!-- Github -->
-              <a class="fa-icon" href="https://github.com/Justin19960919" title="github">
-                <i class="fab fa-github fa-2x"></i>
-              </a>
-              <!-- Facebook -->
-              <a class="fa-icon" href="https://www.facebook.com/justin.lee.9693001" title="fb">
-                <i class="fab fa-facebook fa-2x"></i>
-              </a>
-              <!-- instagram -->
-              <a class="fa-icon" href="https://www.instagram.com/justin85919/" title="ig">
-                <i class="fab fa-instagram fa-2x"></i>
-              </a>
-            </div>
-          
-          </div>
-      </div>
-
     </div>
-
   </section>
 
 
+
+  <!-- projects -->
   <section class="projects">
-  
     <!-- Basketstat -->
     <div class="row project">
 
       <div class="project-image col-lg-6">
-        <img src="./assets/images/BasketStat/bs1.png" alt="BasketStat">
+        <img src="./assets/images/basketstat/bs1.png" alt="BasketStat">
       </div>
 
       <div class="project-description col-lg-6">
@@ -110,9 +65,9 @@
           </a>
         </div>
 
-        <h6>A full stack Django web app that provides features such as blog
+        <h5>A full stack Django web app that provides features such as blog
         posting, recording games, calculating statistics, and user login, logout functionality. The webapp uses ajax to fetch and render data on the screen,
-        and uses a PostgreSQL database as the backend.</h6>
+        and uses a PostgreSQL database as the backend.</h5>
         <div class="technologies">
           <p class="technology">Python</p>
           <p class="technology">Django</p>
@@ -127,7 +82,7 @@
     <div class="row project">
 
       <div class="project-image col-lg-6">
-        <img src="./assets/images/Kpop101/home.png">
+        <img src="./assets/images/kpop101/home.png">
       </div>
 
       <div class="project-description col-lg-6">
@@ -140,7 +95,7 @@
           </a>
         </div>
 
-        <h6>A python Flask web app aimed to provide Users with the experience of getting into the KPOP world. People who want to get into kpop often suffer from not being able to discriminate KPOP stars and the overwhelming information beforehand. This app provides four features, mainly: facial recognition, latest news, a newsletter to subscribe,and a brief introduction of korean entertainment companies.</h6>
+        <h5>A python Flask web app aimed to provide Users with the experience of getting into the KPOP world. People who want to get into kpop often suffer from not being able to discriminate KPOP stars and the overwhelming information beforehand. This app provides four features, mainly: facial recognition, latest news, a newsletter to subscribe,and a brief introduction of korean entertainment companies.</h5>
         <div class="technologies">
           <p class="technology">Python</p>
           <p class="technology">Flask</p>
@@ -156,11 +111,11 @@
     <div class="row project">
 
       <div class="project-image col-lg-6">
-        <img src="./assets/images/Linebot/interface.png">
+        <img src="./assets/images/linebot/interface.png">
       </div>
 
       <div class="project-description col-lg-6">
-        <h1>Line Chat bot</h1>
+        <h1>Line ChatBot</h1>
         <div>
           <!-- Github link-->
           <a class="fa-icon" href="https://github.com/Justin19960919/LineBot" title="" target="_blank">
@@ -172,8 +127,8 @@
           </a>
         </div>
 
-        <h6>This project was built with the intention of automating fetching of memes and jokes, as I often found searching for them tiresome and time-consuming. The chat bot
-        is hosted on heroku, and is operating on a Flask framwork. Cronjobs are assigned to scrape memes and jokes off the internet daily and saved into a csv file which serves as a database.</h6>
+        <h5>This project was built with the intention of automating fetching of memes and jokes, as I often found searching for them tiresome and time-consuming. The chat bot
+        is hosted on heroku, and is operating on a Flask framwork. Cronjobs are assigned to scrape memes and jokes off the internet daily and saved into a csv file which serves as a database.</h5>
         <div class="technologies">
           <p class="technology">Python</p>
           <p class="technology">Flask</p>
@@ -189,7 +144,7 @@
     <div class="row project">
 
       <div class="project-image col-lg-6">
-        <img src="./assets/images/BasketStat/bs2.png" alt="foodApp">
+        <img src="./assets/images/foodapp/foodapp.png" alt="foodApp">
       </div>
 
       <div class="project-description col-lg-6">
@@ -206,8 +161,8 @@
           </a>
         </div>
 
-        <h6>A full stack react web app that allows users to order
-        food items.</h6>
+        <h5>A full stack react web app that allows users to order
+        food items.</h5>
         <div class="technologies">
           <p class="technology">React</p>
           <p class="technology">Javascript</p>
