@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Contact</title>
+
+    <!-- Google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto+Mono:wght@300&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- css script -->
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <section id="title">
+      <div class="container">
+        <nav class="navbar-non-landing navbar-expand-lg navbar-dark">
+          <a class="navbar-brand-non-landing center">Chieh Lin Lee</a>
+          <div class="center mb-3">
+            <a class="nav-link" href="../index.html" style="color: #fffaf0"
+              >Home</a
+            >
+            <!-- <a class="nav-link" href="./about.html" style="color: #fffaf0"
+              >About</a
+            > -->
+            <a class="nav-link" href="./projects.html" style="color: #fffaf0"
+              >Projects</a
+            >
+            <a class="nav-link" href="./contact.html" style="color: #fffaf0"
+              >Contact</a
+            >
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!-- contact form -->
+    <div class="contact-form">
+      <!-- contact form header -->
+      <div class="contact-form-header">
+        <h5>Feel free to contact me and I look forward to knowing you!</h5>
+      </div>
+      <!--  -->
+      <form
+        action="https://formspree.io/f/meqvadbv"
+        method="POST"
+        class="reveal-content contact-form"
+      >
+        <div>
+          <!-- email -->
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control"
+              name="_replyto"
+              id="email"
+              placeholder="Email"
+            />
+          </div>
+
+          <!-- subject -->
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control"
+              id="subject"
+              placeholder="Subject"
+            />
+          </div>
+
+          <!-- message -->
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              rows="5"
+              name="message"
+              placeholder="Enter your message"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg submit-button">
+            Send
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="container">
+        <p>© Copyright 2021 Chieh Lin Lee</p>
+        <!-- Mail -->
+        <a class="fa-icon" href="mailto:chiehlinleee@gmail.com" title="">
+          <i class="fas fa-envelope fa-md"></i>
+        </a>
+        <!-- Facebook -->
+        <a
+          class="fa-icon"
+          href="https://www.linkedin.com/in/chieh-lin-lee/"
+          title=""
+        >
+          <i class="fab fa-linkedin fa-md"></i>
+        </a>
+        <!-- Github -->
+        <a class="fa-icon" href="https://github.com/Justin19960919" title="">
+          <i class="fab fa-github fa-md"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
