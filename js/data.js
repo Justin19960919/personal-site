@@ -1,5 +1,26 @@
 const experiences = [
   {
+    title: "Software Engineer Coop",
+    company: "Intuit",
+    startDate: "June 2022",
+    endDate: "Dec 2022",
+    bulletPoints: [
+      "Constructed Monitoring and Alerting system for all decoupled frontend plugins / widgets with Typescript, Wavefront and Splunk, which enables end to end distributed tracing of network calls for customer interactions, reducing engineering reaction time by 90 %.",
+      "Singlehandedly completed development of brand new frontend user experience to completion for QuickBooks Online UK with React.js, Typescript, Apollo GraphQL and completed with 85 % test coverage in 2.5 months."
+    ],
+  },
+  {
+    title: "Software Engineer Coop",
+    company: "Wayfair",
+    startDate: "Jan 2022",
+    endDate: "June 2022",
+    bulletPoints: [
+      "Collaborated with two other engineers to deliver “Build Your Order” web & mobile user experience before WayDay, which boosted protection plans attachment revenue by 24 % (~$156K annualized impact) without negatively impacting conversion rate.",
+      "Constructed REST endpoints in PHP for querying home services eligibility, enabling business leaders to determine sales agent salary stimulus, impacting all Wayfair sales agents.",
+      "Developed business logic and database operations in Python microservice to enable new protection plans for composite SKU to show on Wayfair UK site.",
+    ],
+  },
+  {
     title: "Graduate teaching assistant",
     company: "Northeastern University",
     startDate: "Sep 2021",
